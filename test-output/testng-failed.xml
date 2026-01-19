@@ -3,11 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="softAssertsDemo.Example1">
+      <class name="dataProviderExamples.Example10DataProvider">
         <methods>
-          <include name="m1"/>
+          <include name="loginInformation"/>
+          <include name="candInform1"/>
         </methods>
-      </class> <!-- softAssertsDemo.Example1 -->
+      </class> <!-- dataProviderExamples.Example10DataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
