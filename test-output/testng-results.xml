@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-02T01:52:37 IST" name="Default suite" finished-at="2026-01-02T01:52:37 IST" duration-ms="685">
+  <suite started-at="2026-05-14T19:22:32 IST" name="Default suite" finished-at="2026-05-14T19:22:33 IST" duration-ms="593">
     <groups>
     </groups>
-    <test started-at="2026-01-02T01:52:37 IST" name="Default test" finished-at="2026-01-02T01:52:37 IST" duration-ms="685">
+    <test started-at="2026-05-14T19:22:32 IST" name="Default test" finished-at="2026-05-14T19:22:33 IST" duration-ms="593">
       <class name="dataProviderExamples.Example10DataProvider">
-        <test-method signature="loginInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataProviderExamples.Example10DataProvider@5e5d171f]" started-at="2026-01-02T01:52:37 IST" name="loginInformation" data-provider="loginDetails" finished-at="2026-01-02T01:52:37 IST" duration-ms="31" status="PASS">
+        <test-method signature="loginInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataProviderExamples.Example10DataProvider@3bd82cf5]" started-at="2026-05-14T19:22:33 IST" name="loginInformation" data-provider="loginDetails" finished-at="2026-05-14T19:22:33 IST" duration-ms="10" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginInformation -->
-        <test-method signature="loginInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataProviderExamples.Example10DataProvider@5e5d171f]" started-at="2026-01-02T01:52:37 IST" name="loginInformation" data-provider="loginDetails" finished-at="2026-01-02T01:52:37 IST" duration-ms="1" status="PASS">
+        <test-method signature="loginInformation(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:dataProviderExamples.Example10DataProvider@3bd82cf5]" started-at="2026-05-14T19:22:33 IST" name="loginInformation" data-provider="loginDetails" finished-at="2026-05-14T19:22:33 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>

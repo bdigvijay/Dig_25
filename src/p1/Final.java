@@ -1,9 +1,5 @@
 package p1;
 
-import bdig1020.Two;
-//import bdig1020.one;
-
-
 public class Final {
 
 	public static void main(String[] args) {
@@ -15,5 +11,5 @@ public class Final {
 		System.out.println(sum+ch);
 		System.out.println(ch+sum);
 		}
-	
+
 }

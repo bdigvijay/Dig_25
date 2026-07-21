@@ -8,12 +8,12 @@ package pattern;
 1 2 3 4 5
 1 2 3 4 5 6
 1 2 3 4 5 6 7
- * 
+ *
  */
 
 public class Pattern1 {
 
-	
+
 	void patt1() {
 		for (int i = 1; i <= 7; i++) {
 			for (int j = 1; j <= i; j++) {
@@ -30,7 +30,7 @@ public class Pattern1 {
 		}
 		System.out.println();
 	}
-	
+
 	void patt2() {
 		for (int i = 1; i <= 7; i++) {
 			for (int j = 1; j <= i; j++) {
@@ -44,13 +44,13 @@ public class Pattern1 {
 				System.out.print("*" + " ");
 			}
 			System.out.println();
-			
+
 		}
 		System.out.println();
 	}
-	
+
 	void patt3() {
-		
+
 		for (int i = 1; i <=7 ; i++){
 			int count = 0;
 			for (char j = 'A'; j <= 'G'; j++) {
@@ -63,7 +63,7 @@ public class Pattern1 {
 			System.out.println();
 		}
 		System.out.println();
-		
+
 		for(int i = 1 ; i <= 7 ; i++) {
 			int count = 0;
 			for(char ch = 'A'; ch <= 'G'; ch++) {
@@ -76,8 +76,8 @@ public class Pattern1 {
 			System.out.println();
 			}
 		}
-		
-	
+
+
 	public static void main(String[] args) {
 		Pattern1 p1 = new Pattern1();
 		p1.patt1();

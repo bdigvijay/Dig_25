@@ -5,7 +5,7 @@ import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class OptionalParamTest {
-	
+
 	@Parameters("browser")
 	@Test
 	public void start(@Optional("safari") String browserName) {

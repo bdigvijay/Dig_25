@@ -1,23 +1,25 @@
 package testngdemo;
 
-import org.testng.annotations.*;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
 
 public class TC6_ThreadLocal {
-	
-	ThreadLocal<String> threadIntegerLocal = new ThreadLocal<String>();
-	
+
+	ThreadLocal<String> threadIntegerLocal = new ThreadLocal<>();
+
 	static String x = "";
-	
+
 	@BeforeClass
 	public void BC() {
 		System.out.println("This is with Thread local concept");
 	}
-	
+
 	@BeforeMethod
 	public void BM() {
 		threadIntegerLocal.set(x);
 	}
-	
+
 	@Test
 	public void m1() throws InterruptedException {
 		String y = threadIntegerLocal.get();
@@ -27,7 +29,7 @@ public class TC6_ThreadLocal {
 			System.out.println(y);
 		}
 	}
-	
+
 	@Test
 	public void m2() throws InterruptedException {
 		String y = threadIntegerLocal.get();
