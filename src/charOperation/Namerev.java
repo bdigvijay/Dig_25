@@ -27,8 +27,9 @@ public class Namerev {
 //					ch = inputStr.charAt(i+1);
 				}
 
-				if (!Character.isWhitespace(ch))
+				if (!Character.isWhitespace(ch)) {
 					outputStr = outputStr + ch;
+				}
 				break;
 			}
 

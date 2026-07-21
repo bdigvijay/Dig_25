@@ -25,12 +25,12 @@ public class Digvijay_Assignment32 {
 			}
 		}
 	}
-	
+
 	public static void main(String[] args) {
 		Digvijay_Assignment32 das32 = new Digvijay_Assignment32();
 		das32.freqChar("digvijay");
 	}
-	
-	
-	
+
+
+
 }

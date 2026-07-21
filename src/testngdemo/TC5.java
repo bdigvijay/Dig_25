@@ -1,6 +1,6 @@
 package testngdemo;
 
-import org.testng.annotations.*;
+import org.testng.annotations.Test;
 
 public class TC5 {
 	@Test(groups = "Regression")

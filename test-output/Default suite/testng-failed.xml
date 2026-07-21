@@ -5,7 +5,6 @@
     <classes>
       <class name="dataProviderExamples.Example10DataProvider">
         <methods>
-          <include name="loginInformation"/>
           <include name="candInform1"/>
         </methods>
       </class> <!-- dataProviderExamples.Example10DataProvider -->

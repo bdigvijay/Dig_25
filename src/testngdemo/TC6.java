@@ -1,11 +1,12 @@
 package testngdemo;
 
-import org.testng.annotations.*;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Test;
 
 public class TC6 {
 
 	String x = "";
-	
+
 	@BeforeClass
 	public void BC() {
 		System.out.println("This is without Thread local concept");
